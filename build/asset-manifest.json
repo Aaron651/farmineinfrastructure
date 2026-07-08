@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5e974f65.css",
+    "main.js": "/static/js/main.8f50c75c.js",
+    "static/media/paverblock.png": "/static/media/paverblock.47be52f7464275bdcb82.png",
+    "static/media/latestproject.png": "/static/media/latestproject.8095596384176f8bee67.png",
+    "static/media/ACCblock.png": "/static/media/ACCblock.7a90d130385cd9855b6f.png",
+    "static/media/overallproductimage.png": "/static/media/overallproductimage.76289c23a5df62db25d7.png",
+    "static/media/heropg.png": "/static/media/heropg.b05f315493ef332b5d9a.png",
+    "static/media/contactpg.png": "/static/media/contactpg.a67b1d6ed61ad28c2717.png",
+    "static/media/green.jpg.png": "/static/media/green.jpg.ebd4eee8776a35799232.png",
+    "static/media/grouppg.png": "/static/media/grouppg.680855478ddb46e3c58c.png",
+    "static/media/stone_aggregate_image.png": "/static/media/stone_aggregate_image.40532bcd9e5d21c32ff1.png",
+    "static/media/media3.jpg": "/static/media/media3.6d75988288712b7c4cfb.jpg",
+    "static/media/media2.jpg": "/static/media/media2.dcbee416dd8a3a38c286.jpg",
+    "static/media/media1.jpg": "/static/media/media1.52362442fa959ad50931.jpg",
+    "static/media/product.jpg": "/static/media/product.31dd2b1a7ac44bc70a0f.jpg",
+    "static/media/greenforestpress.png": "/static/media/greenforestpress.37c6865efb0bf7040aef.png",
+    "static/media/room.jpg": "/static/media/room.4c4538c5db86b12733e8.jpg",
+    "index.html": "/index.html",
+    "main.5e974f65.css.map": "/static/css/main.5e974f65.css.map",
+    "main.8f50c75c.js.map": "/static/js/main.8f50c75c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5e974f65.css",
+    "static/js/main.8f50c75c.js"
+  ]
+}
