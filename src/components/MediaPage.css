@@ -1,0 +1,61 @@
+/* ================= Logos ================= */
+
+.media-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 16px;
+  border: 2px solid #e5e7eb;
+  transition: 0.3s;
+}
+
+.media-card img:hover {
+  transform: scale(1.03);
+}
+
+/* ================= Media Content ================= */
+
+.media-btn {
+  background: #3b82f6;
+  color: #fff;
+  border: none;
+  padding: 14px 38px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.media-btn:hover {
+  background: #2563eb;
+}
+
+/* ================= Responsive ================= */
+
+@media (max-width: 1024px) {
+  .media-card img {
+    height: 210px;
+  }
+}
+
+@media (max-width: 768px) {
+  .media-card img {
+    height: 200px;
+  }
+
+  .media-btn {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .media-card img {
+    height: 180px;
+  }
+
+  .media-btn {
+    padding: 12px 24px;
+    font-size: 15px;
+  }
+}

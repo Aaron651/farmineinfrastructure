@@ -1,0 +1,66 @@
+/* ================= Banner ================= */
+
+.announcement-banner{
+  position:relative;
+  background-size:cover;
+  background-position:center;
+  height:320px;
+}
+
+.announcement-banner::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:rgba(0,0,0,.45);
+}
+
+/* ================= Main Content ================= */
+
+.announcement-content{
+  color:#555;
+}
+
+.announcement-content p{
+  font-size:17px;
+  line-height:2;
+  color:#666;
+  margin-bottom:28px;
+  text-align:justify;
+}
+
+/* ================= Responsive ================= */
+
+@media (max-width:992px){
+
+  .announcement-banner{
+    height:260px;
+  }
+
+}
+
+@media (max-width:768px){
+
+  .announcement-banner{
+    height:200px;
+  }
+
+  .announcement-content p{
+    font-size:16px;
+    line-height:1.9;
+    margin-bottom:22px;
+  }
+
+}
+
+@media (max-width:480px){
+
+  .announcement-banner{
+    height:170px;
+  }
+
+  .announcement-content p{
+    font-size:15px;
+    line-height:1.8;
+  }
+
+}

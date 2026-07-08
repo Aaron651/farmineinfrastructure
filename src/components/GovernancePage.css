@@ -1,0 +1,41 @@
+/* ===========================
+   FADE ANIMATION
+=========================== */
+
+.animate-fade {
+  animation: fade .5s ease;
+}
+
+@keyframes fade {
+
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+}
+
+/* ===========================
+   MOBILE
+=========================== */
+
+@media (max-width:768px){
+
+  .animate-fade{
+    animation-duration:.4s;
+  }
+
+}
+
+@media (max-width:480px){
+
+  .animate-fade{
+    animation-duration:.35s;
+  }
+
+}

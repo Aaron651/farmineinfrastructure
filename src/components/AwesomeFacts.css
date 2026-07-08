@@ -1,0 +1,42 @@
+.awesome-facts {
+  background: #555;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.awesome-container {
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+.awesome-title {
+  color: white;
+  font-size: 52px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.awesome-text {
+  color: #f5f5f5;
+  font-size: 17px;
+  line-height: 1.9;
+  text-align: center;
+  margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .awesome-facts {
+    padding: 40px 15px;
+  }
+
+  .awesome-title {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+
+  .awesome-text {
+    font-size: 15px;
+    line-height: 1.8;
+  }
+}

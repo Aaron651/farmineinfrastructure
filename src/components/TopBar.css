@@ -1,0 +1,25 @@
+.topbar {
+  background: #2f3741;
+  color: white;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 10px 40px;
+}
+
+.social {
+  display: flex;      /* Makes icons appear in one row */
+  gap: 15px;          /* Space between icons */
+  align-items: center;
+}
+
+.social svg {
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.phone {
+  font-weight: bold;
+}

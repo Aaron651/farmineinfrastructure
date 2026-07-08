@@ -1,0 +1,39 @@
+.about-image {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-image img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 18px;
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.15);
+  transition: transform 0.4s ease;
+}
+
+.about-image img:hover {
+  transform: scale(1.03);
+}
+
+@media (max-width: 1024px) {
+  .about-image img {
+    max-width: 450px;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-image img {
+    max-width: 100%;
+    border-radius: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-image img {
+    border-radius: 12px;
+  }
+}

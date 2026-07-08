@@ -1,0 +1,148 @@
+/* ===========================
+   LOGO IMAGES
+=========================== */
+
+.logo-card{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background:#fff;
+  border-radius:16px;
+  padding:25px;
+  border:1px solid #ececec;
+  transition:.35s;
+}
+
+.logo-card:hover{
+  transform:translateY(-8px);
+  box-shadow:0 18px 40px rgba(0,0,0,.12);
+}
+
+.logo-card img{
+  max-width:100%;
+  height:auto;
+}
+
+.green-logo{
+  width:180px;
+}
+
+.forest-logo{
+  width:340px;
+}
+
+/* ===========================
+   WEBSITE BUTTON
+=========================== */
+
+.visit-btn{
+  background:#dc2626;
+  color:#fff;
+  padding:14px 34px;
+  border:none;
+  border-radius:999px;
+  font-size:16px;
+  font-weight:600;
+  cursor:pointer;
+  transition:.3s;
+  box-shadow:0 10px 25px rgba(220,38,38,.25);
+}
+
+.visit-btn:hover{
+  background:#b91c1c;
+  transform:translateY(-2px);
+}
+
+/* ===========================
+   CONTENT
+=========================== */
+
+.group-content p{
+  color:#666;
+  line-height:2;
+  margin-bottom:22px;
+  font-size:17px;
+}
+
+/* ===========================
+   FADE ANIMATION
+=========================== */
+
+.animate-fade{
+  animation:fade .5s ease;
+}
+
+@keyframes fade{
+
+  from{
+    opacity:0;
+    transform:translateY(20px);
+  }
+
+  to{
+    opacity:1;
+    transform:translateY(0);
+  }
+
+}
+
+/* ===========================
+   BUTTON
+=========================== */
+
+button{
+  transition:.3s;
+}
+
+/* ===========================
+   MOBILE
+=========================== */
+
+@media(max-width:992px){
+
+  .forest-logo{
+    width:280px;
+  }
+
+}
+
+@media(max-width:768px){
+
+  .logo-card{
+    padding:20px;
+  }
+
+  .green-logo{
+    width:150px;
+  }
+
+  .forest-logo{
+    width:230px;
+  }
+
+  .group-content p{
+    font-size:16px;
+    line-height:1.9;
+  }
+
+}
+
+@media(max-width:480px){
+
+  .logo-card{
+    padding:16px;
+  }
+
+  .green-logo{
+    width:130px;
+  }
+
+  .forest-logo{
+    width:200px;
+  }
+
+  .group-content p{
+    font-size:15px;
+  }
+
+}
